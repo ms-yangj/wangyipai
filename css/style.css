@@ -282,6 +282,8 @@ a.button3{
 }
 .feature-grid1{
 	border-bottom:1px solid #dedede;
+	padding-top: 1em;
+	padding-bottom: 2em;
 }
 
 .feature12-grid{
@@ -323,6 +325,8 @@ a.button5{
 }
 .feature-grid2{
 	border-bottom:1px solid #dedede;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 .feature13-grid {
 	margin-top: 16em;
