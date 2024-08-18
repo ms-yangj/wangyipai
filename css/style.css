@@ -360,6 +360,7 @@ a.button7{
 .discover-header{
 	text-align:center;
 	width: 48%;
+	height: 10em;
 	margin: 0 auto;
 }
 .discover-header h3 {
@@ -382,7 +383,7 @@ a.button7{
 	padding-top: 3em;
 }
 .app{
-	background: url(../images/app-banner.jpg) no-repeat;
+	/*background: url(../images/app-banner.jpg) no-repeat;*/
 	background-size: 100% 100%;
 	padding-top:2em;
 }
@@ -591,7 +592,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .footer-section{
 	background: url("../images/foot-banner.jpg") no-repeat;
 	background-size: cover;
-	min-height: 525px;
+	min-height: 450px;
 }
 .footer-top {
 	padding: 15em 0 2em 0;
@@ -1146,7 +1147,7 @@ margin-bottom:3em;
 		.footer-section {
 			background: url("../images/foot-banner.jpg") no-repeat;
 			background-size: cover;
-			min-height: 450px;
+			min-height: 300px;
 		}
 	}
 	@media(max-width:1280px){
@@ -1255,7 +1256,7 @@ margin-bottom:3em;
 			font-size: 2.1em;
 		}
 		.footer-section {
-			min-height: 336px;
+			min-height: 200px;
 		}
 		.footer-top {
 			padding: 10em 0 2em 0;
@@ -1723,7 +1724,7 @@ margin-bottom:3em;
 			font-size: 1.5em;
 		}
 		.footer-top {
-			padding: 5em 0 1em 0;
+			padding: 1em 0 1em 0;
 		}
 		.copy-rights p {
 			font-size: 1em;
