@@ -42,7 +42,10 @@ body{
 	min-height:600px;
 }
 .logo{
-	margin-top:1em;
+	margin-top:4em;
+}
+.logo img{
+	width: 60px;
 }
 .header-info {
 	text-align: center;
@@ -1804,7 +1807,7 @@ margin-bottom:3em;
 		}
 
 		.logo img {
-			width: 40%;
+			width: 20%;
 		}
 
 		.logo {
