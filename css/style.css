@@ -58,8 +58,9 @@ body{
 	font-weight: 300;
 }
 .header-info p {
-	font-size: 1.4em;
-	color: #2b282f;
+	font-size: 1.2em;
+	padding-top: 1em;
+	color: #e55800;
 }
 .buttons {
 	margin-top: 8em;
@@ -106,9 +107,8 @@ a.button1 {
 }
 span.ia{
 	color:#22c064;
-	font-weight:500;
+	font-weight:300;
 	border-bottom:2px solid #22c064;
-	
 }
 
 span.ib {
@@ -127,7 +127,7 @@ span.id {
 	color: #1187e7;
 	border-bottom:2px solid #1187e7;
 	
-	font-weight:500;
+	font-weight:300;
 }
 span.ie{
 	color: #ff962a;
