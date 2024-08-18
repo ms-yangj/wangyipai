@@ -1,14 +1,250 @@
-<!DOCTYPE html>  
-<html>  
-<head>  
-    <meta charset="UTF-8">  
-    <title>我的简单页面</title>  
-</head>  
-<body>  
-  
-<h1>欢迎来到我 Jet Yang的简单页面</h1>  
-<p>111这是一个段落，用来展示HTML页面是如何工作的。</p>  
-<p>222点击下面的链接，可以访问<a href="https://www.example.com">示例网站</a>。</p>  
-  
-</body>  
+<!DOCTYPE html>
+<html>
+<head>
+<title>玩易派</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Dotpixsel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	    
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>  
+<script src="js/responsiveslides.min.js"></script>
+ <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+  <script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png"></a>
+			</div>
+			<div class="header-info">
+				<h1>玩易派</h1>
+				<p>易学爱好者必备工具</p>
+			</div>
+		</div>
+		</div>
+		<div class="content">
+			<div class="container">
+			<div class="features-section">
+				<div class="feature-header">
+					<h2><span class="ia">玩易黄历</span> <span class="ib">六十四卦研读</span> <span class="ic">梅花易数</span> <span class="id">卦例分析</span> <span class="ie">系统评分</span></h2>
+					<p>深受“易”学爱好者推崇的梅花易数把玩工具，支持定制版老黄历、灵活的梅花易数起卦方式、卦例的保存和心得轨迹记录，更有玩易派定制算法针对卦例客观因素直观评分与详细解读，既在梅花易数入门者的好帮手，更在易学专研人员的必备工具。</p>
+					</div>
+					<div class="features-grids">
+						<div class="feature-grid1">
+						<div class="col-md-6 feature1-grid">
+							<img src="images/huangli.png">
+						</div>
+						<div class="col-md-6 feature2-grid">
+							<h3><span>玩易</span>黄历</h3>
+							<p>轻量级黄历，支持精确节气显示、干支历、传统五行、神煞、每日宜、忌事宜及诸神方位等，是您每日快捷日历查看的好帮手。</p>
+							<div class="buttons1">
+							<a class="btn btn-1 btn-1c button2" href="#">Learn more</a>
+							<a class="btn btn-1 btn-1c button3" href="#">></a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						</div>
+						<div class="feature-grid2">
+						<div class="col-md-6 feature12-grid">
+							<h3><span>玩易</span> 主页</h3>
+							<p>主页快捷显示最近卦例及六十四卦速查，同时也是玩易黄历、所有卦例的入口，更是作为梅花易数起卦入口，支持多种快捷、自定义起卦方式，随时随地的满足您起心动念之需。</p>
+							<div class="buttons1">
+							<a class="btn btn-1 btn-1b button4" href="#">Learn more</a>
+							<a class="btn btn-1 btn-1b button5" href="#">></a>
+							</div>
+						</div>
+						<div class="col-md-6 feature1-grid">
+							<img src="images/main1.png">
+						</div>
+						<div class="clearfix"></div>
+						</div>
+						<div class="feature-grid3">
+						<div class="col-md-6 feature1-grid">
+							<img src="images/detail.png">
+						</div>
+						<div class="col-md-6 feature13-grid">
+							<h3><span>卦例</span> 展示页</h3>
+							<p>作为卦例的信息展示主视图，清晰直观展现梅花易数卦例的主卦、互卦、变卦信息，支持卦例的信息编辑与保存，更有暗夜显示模式，助力您的冥想视角。</p>
+							<div class="buttons1">
+							<a class="btn btn-1 btn-1d button6" href="#">Learn more</a>
+							<a class="btn btn-1 btn-1d button7" href="#">></a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						</div>
+
+						<div class="feature-grid2">
+							<div class="col-md-6 feature12-grid">
+								<h3><span>玩易</span> 评分系统</h3>
+								<p>针对梅花易数卦例的客观数据评分系统，从主、互、变三个维度的体用关系、五行生克及卦气旺衰等方面因素进行综合评分，既是客观因素的直观展现，更是主观卦象预测不可或缺的基础依据。</p>
+								<div class="buttons1">
+									<a class="btn btn-1 btn-1b button4" href="#">Learn more</a>
+									<a class="btn btn-1 btn-1b button5" href="#">></a>
+								</div>
+							</div>
+							<div class="col-md-6 feature1-grid">
+								<img src="images/plus.png">
+							</div>
+							<div class="clearfix"></div>
+						</div>
+
+						<div class="clearfix"></div>
+				</div>
+				</div>
+				</div>
+				
+							<!--start-divice-scree-slider-->
+		<div class="app" id="screens">
+		<div class="container">	
+			<div class="discover-header">
+							<h3>Discover New Video & Friends</h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, </p>
+							</div>
+							
+
+			</div>
+			</div>
+			<!---image-carsuals---->
+	    <link href="css/owl.carousel.css" rel="stylesheet">
+	    <link href="css/owl.theme.css" rel="stylesheet">
+   		<script src="js/owl.carousel.js"></script>
+   		<script>
+	    $(document).ready(function() {
+	      $("#owl-demo").owlCarousel({
+	      	navigation: true,
+		    navigationText: [
+		      "<i class='icon-chevron-left icon-white'></i>",
+		      "<i class='icon-chevron-right icon-white'></i>"
+		      ],
+	        items :5,
+	        slideSpeed :100,
+	        lazyLoad : true,
+	        autoPlay : true,
+	      });
+	    });
+	    </script>
+   		<!---//End-carsuals---->
+			<!--End-divice-scree-slider-->	
+			<div class="team-section">
+			<div class="slider1">	  
+	  <div class="callbacks_container">
+	      <ul class="rslides" id="slider1">
+	         <li>
+				 <img src="images/side-1.png" alt=""/>
+				  <div class="caption caption1">
+					<h2>john doe</h2>
+					<p>It’s good to have everything sorted. Taasky offers categories which can filter your tasks in a very simple manner. Every category has its own colour to avoid chaos.</p>
+				  </div>
+	         </li>
+	         <li>
+				 <img src="images/side-2.png" alt=""/>
+				  <div class="caption caption1">
+					<h2>Aliquam </h2>
+					<p>It’s good to have everything sorted. Taasky offers categories which can filter your tasks in a very simple manner. Every category has its own colour to avoid chaos.</p>
+				  </div>
+	         </li>
+	         <li>
+				 <img src="images/side-3.png" alt=""/>
+				  <div class="caption caption1">
+					<h2> faucibus </h2>
+					<p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutem. Lorem ipsum dolor sit amet, conectetu er adipiscing elit.vestibulum.</p>
+				  </div>
+	         </li>
+	      </ul>	      
+      </div>
+</div>
+	<script src="js/responsiveslides.min.js"></script>
+	 <script>
+		$(function () {
+		  $("#slider1").responsiveSlides({
+			auto: true,
+			speed: 500,
+			namespace: "callbacks",
+			pager: true,
+		  });
+		});
+	  </script>
+	<!----->
+</div>
+		</div>
+		<div class="footer-section">
+			<div class="container">	
+			<div class="footer-top">
+				<div class="copy-rights">
+					<p>Copyright &copy; 玩易派</p>
+					</div>
+<!--					<div class="top-menu">-->
+<!--						<ul>-->
+<!--							<li><a href="contact.html">contact</a></li>-->
+<!--								<li><a href="faq.html">faq</a></li>-->
+<!--									<li><a href="blog.html">blog</a></li>-->
+<!--						</ul>-->
+<!--						</div>-->
+						<div class="clearfix"></div>
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-button">
+						<a href="#">
+						<div class="apple">
+						<img src="images/apple.png">
+							</div>
+							<div class="appstore">
+								<p>Download On the</p>
+								<h4>app store</h4>
+							</div></a>
+								<div class="clearfix"></div>
+								</div>
+								<div class="coming-soon">
+									<a href="#">coming soon</a>
+									</div>
+									<div class="clearfix"></div>
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+
+				</div>
+			</div>				
+		<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
 </html>
