@@ -376,7 +376,6 @@ a.button7{
 	line-height: 1.8em;
 
 }
-*---//start-divice-screens-----*/
 .img-cursual {
 	width: 78%;
 	margin: 0 auto;
@@ -595,7 +594,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	min-height: 450px;
 }
 .footer-top {
-	padding: 15em 0 2em 0;
+	padding: 5em 0 2em 0;
 	border-bottom: 1px solid #22c064;
 }
 .copy-rights {
@@ -1726,6 +1725,9 @@ margin-bottom:3em;
 		.footer-top {
 			padding: 1em 0 1em 0;
 		}
+		.footer-bottom {
+			height: 10em;
+		}
 		.copy-rights p {
 			font-size: 1em;
 		}
@@ -1796,7 +1798,7 @@ margin-bottom:3em;
 		}
 	}
 		
-	@media (max-width: 480px){
+	@media (max-width: 480px) {
 		.header {
 			min-height: 255px;
 		}
@@ -1804,172 +1806,217 @@ margin-bottom:3em;
 		.logo img {
 			width: 40%;
 		}
+
 		.logo {
 			margin-top: 1.5em;
 		}
+
 		.header-info {
 			margin-top: 3.5em;
 		}
+
 		.header-info h1 {
 			font-size: 1.6em;
 		}
+
 		.header-info p {
 			font-size: 0.9em;
 		}
+
 		.buttons {
 			margin-top: 2em;
 		}
+
 		a.button {
 			font-size: 0.9em;
 			padding: 0.7em 0.8em;
 		}
+
 		a.button1 {
 			font-size: 0.9em;
 			padding: 0.7em 0.7em;
 		}
+
 		.features-section {
 			padding: 2em 0;
 		}
+
 		.feature-header h2 {
 			font-size: 1.4em;
 		}
+
 		.feature-header p {
 			font-size: 0.89em;
 			height: 57px;
 			overflow: hidden;
 			padding: 10px 0;
 		}
+
 		.feature2-grid {
 			margin-top: 6em;
 		}
+
 		.feature2-grid p {
 			font-size: 0.9em;
 			height: 66px;
 			overflow: hidden;
 		}
+
 		a.button2 {
 			font-size: 1em;
 			padding: 0.8em 0.9em;
 		}
+
 		a.button3 {
 			font-size: 0.9em;
 			padding: 0.8em 0.9em;
 		}
+
 		.feature12-grid p {
 			font-size: 0.9em;
 			height: 66px;
 			overflow: hidden;
 		}
+
 		.feature12-grid {
 			margin-top: 6em;
 		}
+
 		a.button4 {
 			font-size: 1em;
 			padding: 0.8em 0.9em;
 		}
+
 		a.button5 {
 			font-size: 0.9em;
 			padding: 0.8em 0.9em;
 		}
+
 		.feature13-grid p {
 			font-size: 0.9em;
 			height: 66px;
 			overflow: hidden;
 		}
+
 		a.button6 {
 			font-size: 1em;
 			padding: 0.8em 0.9em;
 		}
+
 		a.button7 {
 			font-size: 0.9em;
 			padding: 0.8em 0.9em;
 		}
+
 		.feature13-grid {
 			margin-top: 6em;
 		}
+
 		.discover-header {
 			width: 98%;
 		}
+
 		.discover-header h3 {
 			font-size: 1.6em;
 		}
+
 		.team-section {
 			padding: 2em 0;
 		}
+
 		.caption1 h2 {
 			font-size: 1.4em;
 		}
+
 		.rslides img {
 			width: 25%;
 		}
+
 		.caption1 p {
 			font-size: 0.9em;
 			height: 38px;
 			overflow: hidden;
 			line-height: 1.5em;
 		}
+
 		ul.callbacks_tabs.callbacks1_tabs {
 			bottom: -8px;
 		}
+
 		.footer-section {
 			min-height: 280px;
 		}
-		
+
 		.top-menu {
 			float: center;
-			text-align:center;
+			text-align: center;
 		}
+
 		.copy-rights p {
 			font-size: 1em;
 			margin-bottom: 1em;
 			text-align: center;
 		}
+
 		.header.head-top {
 			min-height: 75px;
 		}
+
 		.contact-section {
 			padding: 1.5em 0;
 		}
+
 		.contact-left {
 			width: 100%;
 		}
+
 		.contact-left p {
 			font-size: 13px;
 			line-height: 1.5em;
 		}
+
 		address {
 			font-size: 13px;
 			line-height: 1.5em;
 		}
+
 		.contact-right {
 			width: 100%;
 			margin-top: 2em;
 		}
+
 		.contact-right input[type="submit"] {
 			width: 20%;
 			margin-left: 23em;
 			font-size: 1em;
 			padding: 7px 0;
 		}
+
 		.pagenot-found img {
 			width: 60%;
 		}
+
 		.pagenot-found {
 			min-height: 575px;
 			padding-top: 9em;
 		}
+
 		.blog-section {
 			padding: 2em 0;
 		}
+
 		.blog1-grid {
 			margin-top: 1em;
 		}
+
 		.nuber h4 {
 			font-size: 1.2em;
 		}
+
 		.nuber P {
 			font-size: 1.2em;
 		}
+
 		.nuber {
 			float: left;
 			width: 70px;
@@ -1977,311 +2024,393 @@ margin-bottom:3em;
 			padding-top: 11px;
 			margin-right: 15px;
 		}
+
 		a.readblog {
 			font-size: 1.3em;
 		}
+
 		.matter p {
 			font-size: 0.899em;
 		}
+
 		.blog-text h5 {
 			line-height: 1.5em;
 			font-weight: 600;
 			height: 39px;
 			overflow: hidden;
 		}
+
 		.blog-text p {
 			font-size: 0.9em;
 			height: 37px;
 			padding-top: 5px;
 			line-height: 1.5em;
 		}
+
 		.page-nation ul li a {
 			font-size: 0.9em;
 		}
+
 		.page-nation ul li a {
-font-size: 0.83em;
-}
+			font-size: 0.83em;
+		}
+
 		.blog-right h3 {
 			font-size: 1.7em;
 		}
+
 		.iteam {
 			margin-top: 1em;
 		}
+
 		.iteam1 h4 {
 			font-size: 1.7em;
 		}
+
 		#commentform input[type="text"] {
 			padding: 8px 15px;
 			width: 75%;
 		}
+
 		#commentform textarea {
 			padding: 13px 20px;
 			width: 75%;
 		}
+
 		#commentform input[type="submit"] {
 			padding: 10px 35px;
 			font-size: 1em;
 		}
+
 		.cmts-main-left {
 			float: left;
 			width: 25%;
 			margin-right: 2%;
 		}
+
 		.cmts-main-right {
 			float: left;
 			width: 73%;
 		}
-	@media (max-width: 320px){
-		.header {
-			min-height: 168px;
-		}
-		.header-info {
-			margin-top: 1.5em;
-		}
-		.header-info h1 {
-			font-size: 1.4em;
-		}
-		.header-info p {
-			display: none;
-		}
-		.buttons {
-			margin-top: 1em;
-		}
-		.features-section {
-			padding: 1em 0;
-		}
-		.feature-header h2 {
-			font-size: 1.199em;
-		}
-		.feature1-grid {
-			float: left;
-			width: 44%;
-			padding: 0;
-		}
-		.feature2-grid {
-			margin-top: 4em;
-			float: left;
-			width: 56%;
-			padding: 0 0 0 17px;
-		}
-		.feature2-grid h3 {
-			font-size: 1.1em;
-		}
-		.feature2-grid p {
-			font-size: 0.85em;
-		}
-		.buttons1 {
-			margin-top: 1em;
-		}
-		a.button2 {
-			font-size: 0.75em;
-			padding: 0.7em 0.7em;
-		}
-		a.button3 {
-			font-size: 0.55em;
-			padding: 0.9em 0.7em;
-		}
-		.feature12-grid {
-			margin-top: 4em;
-			float: left;
-			width: 56%;
-			padding: 0 17px 0 0;
-		}
-		.feature12-grid h3 {
-			font-size: 1.1em;
-		}
-		.feature12-grid p {
-			font-size: 0.85em;
-		}
-		
-		a.button4 {
-			font-size: 0.75em;
-			padding: 0.7em 0.7em;
-		}
-		a.button5 {
-			font-size: 0.55em;
-			padding: 0.9em 0.7em;
-		}
-		.feature13-grid {
-			margin-top: 4em;
-			float: left;
-			width: 56%;
-			padding: 0 0 0 17px;
-		}
-		.feature13-grid h3 {
-			font-size: 1.1em;
-		}
-		.feature13-grid p {
-			font-size: 0.85em;
-		}
-		a.button6 {
-			font-size: 0.75em;
-			padding: 0.7em 0.7em;
-		}
-		a.button7 {
-			font-size: 0.55em;
-			padding: 0.9em 0.7em;
-		}
-		.discover-header {
-			width: 100%;
-		}
-		.discover-header h3 {
-			font-size: 1.4em;
-		}
-		.discover-header p {
-			font-size: 0.9em;
-			height: 46px;
-			overflow: hidden;
-		}
-		.rslides img {
-			width: 30%;
-		}
-		.team-section {
-			padding: 1.4em 0;
-		}
-		.caption1 h2 {
-			font-size: 1.2em;
-		}
-		ul.callbacks_tabs.callbacks1_tabs {
-			left: 40%;
-		}
-		.apple {
-			float: left;
-			margin: 0px 6px 0 0;
-		}
-		.appstore h4 {
-			font-size: 1em;
-		}
-		.coming-soon a {
-			font-size: 1em;
-		}
-		.coming-soon {
-			margin-top: 2em;
-		}
-		.footer-button {
-			padding: 10px 7px;
-		}
-		.header.head-top {
-			min-height: 60px;
-		}
-		.google-map h4 {
-			font-size: 1.1em;
-		}
-		.google-map iframe {
-			min-height: 240px;
-		}
-		.contact-left h4 {
-			font-size: 1.1em;
-		}
-		.contact-left p {
-			font-size: 13px;
-			line-height: 1.5em;
-			overflow: hidden;
-			height: 80px;
-		}
-		.contact-left {
-			padding: 0;
-		}
-		.contact-right {
-			padding: 0;
-		}
-		.contact-right h4 {
-			font-size: 1.1em;
-			margin-bottom: 0.5em;
-		}
-		.contact-right input[type="submit"] {
-			width: 33%;
-			margin-left: 13em;
-		}
-		.pagenot-found {
-			min-height: 444px;
-			padding-top: 7em;
-		}
-		.pagenot-found img {
-			margin-bottom: 2em;
-		}
-		.pagenot-found a {
-			font-size: 13px
-		}
-		.blog-left {
-			padding: 0;
-		}
-		.nuber h4 {
-			font-size: 1em;
-		}
-		.nuber P {
-			font-size: 0.9em;
-		}
-		.nuber {
-			float: left;
-			width: 55px;
-			height: 55px;
-			margin-bottom: 5px;
-			margin-right:10px;
-		}
-		a.readblog {
-			font-size: 0.99em;
-		}
-		.matter {
-			float: left;
-			margin-top: 0.8em;
-			width: 73%;
-		}
-		.matter p {
-			font-size: 0.76em;
-		}
-		.blog-img {
-			width: 100%;
-		}
-		.blog-text {
-			width: 100%;
-			float: left;
-		}
-		.blog-text h5 {
-			margin-top: 1em;
-		}
-		.blog-text a {
-			font-size: 0.89em;
-		}
-		.blog-text1 p {
-			margin-top: 0;
-		}
-		.page-nation ul li a {
+
+		@media (max-width: 320px) {
+			.header {
+				min-height: 168px;
+			}
+
+			.header-info {
+				margin-top: 1.5em;
+			}
+
+			.header-info h1 {
+				font-size: 1.4em;
+			}
+
+			.header-info p {
+				display: none;
+			}
+
+			.buttons {
+				margin-top: 1em;
+			}
+
+			.features-section {
+				padding: 1em 0;
+			}
+
+			.feature-header h2 {
+				font-size: 1.199em;
+			}
+
+			.feature1-grid {
+				float: left;
+				width: 44%;
+				padding: 0;
+			}
+
+			.feature2-grid {
+				margin-top: 4em;
+				float: left;
+				width: 56%;
+				padding: 0 0 0 17px;
+			}
+
+			.feature2-grid h3 {
+				font-size: 1.1em;
+			}
+
+			.feature2-grid p {
+				font-size: 0.85em;
+			}
+
+			.buttons1 {
+				margin-top: 1em;
+			}
+
+			a.button2 {
+				font-size: 0.75em;
+				padding: 0.7em 0.7em;
+			}
+
+			a.button3 {
+				font-size: 0.55em;
+				padding: 0.9em 0.7em;
+			}
+
+			.feature12-grid {
+				margin-top: 4em;
+				float: left;
+				width: 56%;
+				padding: 0 17px 0 0;
+			}
+
+			.feature12-grid h3 {
+				font-size: 1.1em;
+			}
+
+			.feature12-grid p {
+				font-size: 0.85em;
+			}
+
+			a.button4 {
+				font-size: 0.75em;
+				padding: 0.7em 0.7em;
+			}
+
+			a.button5 {
+				font-size: 0.55em;
+				padding: 0.9em 0.7em;
+			}
+
+			.feature13-grid {
+				margin-top: 4em;
+				float: left;
+				width: 56%;
+				padding: 0 0 0 17px;
+			}
+
+			.feature13-grid h3 {
+				font-size: 1.1em;
+			}
+
+			.feature13-grid p {
+				font-size: 0.85em;
+			}
+
+			a.button6 {
+				font-size: 0.75em;
+				padding: 0.7em 0.7em;
+			}
+
+			a.button7 {
+				font-size: 0.55em;
+				padding: 0.9em 0.7em;
+			}
+
+			.discover-header {
+				width: 100%;
+			}
+
+			.discover-header h3 {
+				font-size: 1.4em;
+			}
+
+			.discover-header p {
+				font-size: 0.9em;
+				height: 46px;
+				overflow: hidden;
+			}
+
+			.rslides img {
+				width: 30%;
+			}
+
+			.team-section {
+				padding: 1.4em 0;
+			}
+
+			.caption1 h2 {
+				font-size: 1.2em;
+			}
+
+			ul.callbacks_tabs.callbacks1_tabs {
+				left: 40%;
+			}
+
+			.apple {
+				float: left;
+				margin: 0px 6px 0 0;
+			}
+
+			.appstore h4 {
+				font-size: 1em;
+			}
+
+			.coming-soon a {
+				font-size: 1em;
+			}
+
+			.coming-soon {
+				margin-top: 2em;
+			}
+
+			.footer-button {
+				padding: 10px 7px;
+			}
+
+			.header.head-top {
+				min-height: 60px;
+			}
+
+			.google-map h4 {
+				font-size: 1.1em;
+			}
+
+			.google-map iframe {
+				min-height: 240px;
+			}
+
+			.contact-left h4 {
+				font-size: 1.1em;
+			}
+
+			.contact-left p {
+				font-size: 13px;
+				line-height: 1.5em;
+				overflow: hidden;
+				height: 80px;
+			}
+
+			.contact-left {
+				padding: 0;
+			}
+
+			.contact-right {
+				padding: 0;
+			}
+
+			.contact-right h4 {
+				font-size: 1.1em;
+				margin-bottom: 0.5em;
+			}
+
+			.contact-right input[type="submit"] {
+				width: 33%;
+				margin-left: 13em;
+			}
+
+			.pagenot-found {
+				min-height: 444px;
+				padding-top: 7em;
+			}
+
+			.pagenot-found img {
+				margin-bottom: 2em;
+			}
+
+			.pagenot-found a {
+				font-size: 13px
+			}
+
+			.blog-left {
+				padding: 0;
+			}
+
+			.nuber h4 {
+				font-size: 1em;
+			}
+
+			.nuber P {
+				font-size: 0.9em;
+			}
+
+			.nuber {
+				float: left;
+				width: 55px;
+				height: 55px;
+				margin-bottom: 5px;
+				margin-right: 10px;
+			}
+
+			a.readblog {
+				font-size: 0.99em;
+			}
+
+			.matter {
+				float: left;
+				margin-top: 0.8em;
+				width: 73%;
+			}
+
+			.matter p {
+				font-size: 0.76em;
+			}
+
+			.blog-img {
+				width: 100%;
+			}
+
+			.blog-text {
+				width: 100%;
+				float: left;
+			}
+
+			.blog-text h5 {
+				margin-top: 1em;
+			}
+
+			.blog-text a {
+				font-size: 0.89em;
+			}
+
+			.blog-text1 p {
+				margin-top: 0;
+			}
+
+			.page-nation ul li a {
 				font-size: 0.83em;
-		}
-		.blog-right {
-			padding: 0;
-		}
-		.iteam ul li a {
-			font-size: 0.99em;
-		}
-		.iteam1 ul li a {
-			font-size: 0.99em;
-		}
-		
-		.comments1 {
-			margin-top: 1em;
-		}
-		#commentform input[type="text"] {
-			padding: 8px 15px;
-			width: 90%;
-		}
-		#commentform textarea {
-			padding: 13px 20px;
-			width: 90%;
-		}
-		.cmts-main-left {
-			padding: 0 0 0px 5px;
-		}
-		.cmts-main-right p {
-			height: 40px;
-			overflow: hidden;
-			line-height: 1.7em;
-			margin: 3px 0 0px 1px;
-			font-size: 0.9em;
-		}
-		.comments-main {
-			border: 1px solid #D5D4D4;
-			padding: 10px 0px;
-			margin: 15px 0px 25px 0;
-		}
+			}
+
+			.blog-right {
+				padding: 0;
+			}
+
+			.iteam ul li a {
+				font-size: 0.99em;
+			}
+
+			.iteam1 ul li a {
+				font-size: 0.99em;
+			}
+
+			.comments1 {
+				margin-top: 1em;
+			}
+
+			#commentform input[type="text"] {
+				padding: 8px 15px;
+				width: 90%;
+			}
+
+			#commentform textarea {
+				padding: 13px 20px;
+				width: 90%;
+			}
+
+			.cmts-main-left {
+				padding: 0 0 0px 5px;
+			}
+
+			.cmts-main-right p {
+				height: 40px;
+				overflow: hidden;
+				line-height: 1.7em;
+				margin: 3px 0 0px 1px;
+				font-size: 0.9em;
+			}
+
+			.comments-main {
+				border: 1px solid #D5D4D4;
+				padding: 10px 0px;
+				margin: 15px 0px 25px 0;
+			}
